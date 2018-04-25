@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define N 10
+
+int main()
+{
+	int wunsz[N][N];
+	int n,s,d,a,f,g,i,j;
+	n=1;
+	for(a=0;2*a<N;a++)				//główna pętla
+	{
+		for(s=0;s<N-(2*a);s++)		//ruch w prawo
+		{
+			wunsz[a][s+a]=n;
+			n++;
+		}
+		s--;
+		for(d=1;d<N-(2*a);d++)		//ruch w dół
+		{
+			wunsz[a+d][a+s]=n;
+			n++;
+		}
+		d--;
+		for(f=1;f<N-(2*a);f++)		//ruch w lewo
+		{
+			wunsz[a+d][s-f+a]=n;
+			n++;
+		}
+		f--;
+		for(g=1;g<N-(2*a)-1;g++)	//ruch w góre
+		{
+			wunsz[a+d-g][s-f+a]=n;
+			n++;
+		}
+		g--;
+	}
+	for(i=0;i<N;i++)
+	{
+		for(j=0;j<N;j++)
+		{
+			printf("%5d", wunsz[i][j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}
