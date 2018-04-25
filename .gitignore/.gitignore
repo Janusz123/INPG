@@ -2,6 +2,7 @@
 using namespace std;
 
 int checkPrimeNumber(int);
+yryryryry
 
 int main()
 {
