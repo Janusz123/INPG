@@ -29,7 +29,7 @@ public:
             } else {
                 iss >> elem;
                 elems.push_back(elem);
-            }
+            } // any comment
         }
 
         _v = elems;
