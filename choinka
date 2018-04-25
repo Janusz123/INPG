@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #define N 10
 
+// boczek
 int main()
 {
 	int wunsz[N][N];
