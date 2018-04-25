@@ -7,7 +7,7 @@ struct student
     int roll;
     float marks;
 };
-
+ancaoinoiancs
 int main() 
 {
     student s;
