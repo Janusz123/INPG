@@ -7,7 +7,7 @@ int main()
 	int wunsz[N][N];
 	int n,s,d,a,f,g,i,j;
 	n=1;
-	for(a=0;2*a<N;a++)				//główna pętla
+	for(a=0;2*a<N;a++)				//główna pętla 2
 	{
 		for(s=0;s<N-(2*a);s++)		//ruch w prawo
 		{
