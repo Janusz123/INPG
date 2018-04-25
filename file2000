@@ -12,5 +12,6 @@ int main()
            ++count;
    }
    cout << "Frequency of " << check <<  " = " << count;
+   std::cout<<bułka<<cin;
    return 0;
 }
