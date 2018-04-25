@@ -31,7 +31,7 @@ void print_buf(char *buf){
 int main(){
     char buf[BUFSIZE];
     init_buf(buf, BUFSIZE);
-    print_buf(buf);
+    print_buf(buf);hjhj
 
     // hello there! == 12 characters, > BUFSIZE
     init_buf(buf, BUFSIZE);
