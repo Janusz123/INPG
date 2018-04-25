@@ -33,7 +33,7 @@ int main()
     return 0;
 }
 void computeTimeDifference(struct TIME t1, struct TIME t2, struct TIME *difference){
-    
+    // ludwig III
     if(t2.seconds > t1.seconds)
     {
         --t1.minutes;
