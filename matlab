@@ -138,7 +138,6 @@ std::string was_exception_raised_when_adding_vectors(const Vector<T>& v1, const 
     } catch(const std::invalid_argument& ia) {
         return ia.what();
     }
-    return "";
 }
 }
 
